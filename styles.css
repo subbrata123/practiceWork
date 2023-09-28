@@ -84,9 +84,30 @@ main{
   background-color: #35316E;
   
 }
+.top_latest{
+  margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  color: #296A73;
+  align-items: center;
+  padding-top: 100px;
+}
+.top_latest h1{
+  color: #2c9b7f;
+}
+.top_latest p{
+  color: #2c9b7f;
+}
+.top_latest span{
+  background-color: #ffffff;
+  color:black;
+  padding: 5px ;
+  border-radius: 5px;
+  margin: 0 10px;
+}
 .latest_video{
   margin: 0 200px;
-  padding: 50px 0px 20px 0px;
+  padding: 50px 0px 0px 0px;
   display: grid;
  grid-template-columns: repeat(4, 1fr);
  grid-column-gap: 40px;
