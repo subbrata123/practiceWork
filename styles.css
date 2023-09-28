@@ -139,4 +139,31 @@ grid-row-gap:-80px;
 .single_video_text p{
   color: #777788;
 }
- 
+ /* main button part end */
+.main_btn{
+  margin: 0 200px;
+}
+.sigle_main_btn{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.sigle_main_btn button{
+  width: 200px;
+  height: 40px;
+  background-color: #00946F;
+  color: white;
+  border: none;
+  border-radius:5px ;
+  font-size: 22px;
+
+}
+.sigle_main_btn span{
+  background-color: #ffffff;
+  color: black;
+  padding: 10px 12px ;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
